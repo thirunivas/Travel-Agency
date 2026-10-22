@@ -1,0 +1,6 @@
+{
+  "name": "JourneyHub – Travel Agency",
+  "description": "Your trusted partner for unforgettable journeys. Handcrafted holiday packages across Kerala, Goa, Rajasthan, Tamil Nadu, Himachal, Karnataka, and international destinations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

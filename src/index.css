@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-jh-ocean: #087EAB;
+  --color-jh-navy: #12304A;
+  --color-jh-sky: #56C7EA;
+  --color-jh-green: #159B72;
+  --color-jh-emerald: #087F65;
+  --color-jh-orange: #FF9B54;
+  --color-jh-yellow: #FFD166;
+  --color-jh-coral: #FF7165;
+  --color-jh-white: #FFFFFF;
+  --color-jh-sand: #FFF5E8;
+  --color-jh-bg: #F4F8FB;
+  --color-jh-dark: #203447;
+  --color-jh-secondary: #68798A;
+}
+
+/* Custom smooth transitions & background patterns */
+.jh-light-bg {
+  background-color: #F4F8FB;
+}
+
+.jh-soft-sand {
+  background-color: #FFF5E8;
+}
+
+/* Card hover elevation */
+.jh-card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.jh-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px -6px rgba(18, 48, 74, 0.12), 0 8px 10px -6px rgba(18, 48, 74, 0.08);
+}
